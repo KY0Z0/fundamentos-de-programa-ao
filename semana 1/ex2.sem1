@@ -1,9 +1,0 @@
- 1 #include<stdio.h>
- 2 int main(){
- 3
- 4 printf("Oi! Esse programa eh um teste!\n");
- 5 printf(" *\n");
- 6 printf(" ***\n");
- 7 printf("*****\n");
- 8 return 0;
- 9 }
