@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int i1, i2, divis, rest;
+
+  printf("Por favor, insira o primeiro número inteiro: ");
+  scanf("%d", &i1);
+
+  printf("Por favor, insira o segundo número inteiro: ");
+  scanf("%d", &i2);
+
+  divis = i1 / i2;
+  rest = i1 % i2;
+
+  printf("O resultado da divisão de %d por %d é:\n%d, com resto %d", i1, i2, divis, rest);
+  return 0;
+}
