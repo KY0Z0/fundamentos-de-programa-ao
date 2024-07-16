@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+  char charVariable;
+  int intVariable;
+  float floatVariable;
+
+printf("Por favor, entre um número inteiro (sem ponto flutuante): ");
+  scanf("%d", &intVariable);
+
+  getchar(); // Solução 1
+
+  printf("Por favor, entre um caractere: ");
+  scanf("%c", &charVariable); // Solução 1
+  // scanf(" %c", &charVariable); // Solução 2
+
+  printf("Por favor, entre um número inteiro (ponto flutuante é váldio): ");
+  scanf("%f", &floatVariable);
+
+  printf("Os valores das variáveis que você entrou são:\n");
+  printf("'int': %d;\n'char': %c;\n'float': %f.\n", intVariable, charVariable, floatVariable);
+  return 0;
+}
