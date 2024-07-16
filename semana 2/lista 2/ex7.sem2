@@ -1,0 +1,11 @@
+#include  <stdio.h>
+int  main(){
+  int  aux;
+  
+  printf("Digite  um  numero  inteiro: ");
+  scanf("%d", &aux);
+  // printf("%f", aux); // linha errada - indicador de tipo de variável não condizente com o tipo da variável
+
+  printf("%d", aux); // correção!
+  return  0;
+}
